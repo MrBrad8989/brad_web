@@ -39,7 +39,7 @@ Haga clic aquí para implementar en Vercel:
 
 ## Vista Previa
 
-![image](https://imgur.com/AogE83w)
+![image](https://i.imgur.com/AogE83w.png)
 
 
 ## Instalación
