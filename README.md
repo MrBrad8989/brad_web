@@ -22,10 +22,10 @@ BradWeb es una plantilla de sitio web de astro gratuita destinada para nuevas em
 | Free Updates    | ✅  | ✅  |
 | &nbsp; | &nbsp;| &nbsp;|
 | Precios| Free|**$49**|
-| &nbsp; | [Deploy for free](https://vercel.com/new/surjithctly/clone?demo-description=Starter%20template%20for%20startups%2C%20marketing%20websites%20%26%20blogs%20built%20with%20Astro%20and%20TailwindCSS.&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5dB0dDqBr1BfvIoNOmffVB%2F784984a8d3fe5e3db123e7c655166046%2Fastroship_-_Tony_Sullivan.jpg&demo-title=Astroship&demo-url=https%3A%2F%2Fastroship.web3templates.com%2F&from=templates&project-name=Astroship&repository-name=astroship&repository-url=https%3A%2F%2Fgithub.com%2Fsurjithctly%2Fastroship&skippable-integrations=1) | [Purchase Pro](https://web3templates.com/templates/astroship-pro-astro-saas-website-template) |
+| &nbsp; | [Implementar Gratis](https://vercel.com/new/surjithctly/clone?demo-description=Starter%20template%20for%20startups%2C%20marketing%20websites%20%26%20blogs%20built%20with%20Astro%20and%20TailwindCSS.&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5dB0dDqBr1BfvIoNOmffVB%2F784984a8d3fe5e3db123e7c655166046%2Fastroship_-_Tony_Sullivan.jpg&demo-title=Astroship&demo-url=https%3A%2F%2Fastroship.web3templates.com%2F&from=templates&project-name=Astroship&repository-name=astroship&repository-url=https%3A%2F%2Fgithub.com%2Fsurjithctly%2Fastroship&skippable-integrations=1) | [Comprar Pro](https://web3templates.com/templates/astroship-pro-astro-saas-website-template) |
 
 <a href="https://web3templates.com/templates/astroship-pro-astro-saas-website-template">
-<img width="160" alt="Upgrade to Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
+<img width="160" alt="Mejorar a Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
 </a>
 
 ## Implementar esta plantilla
@@ -52,7 +52,7 @@ Alternativamente, puedes clonar el proyecto directamente desde este repositorio 
 
 ```bash
 git clone https://github.com/surjithctly/astroship.git myProjectName
-# or
+# o
 git clone https://github.com/surjithctly/astroship.git .
 ```
 
@@ -62,9 +62,9 @@ El `.` lo clonará en el directorio actual, así que primero asegúrese de estar
 
 ```bash
 npm install
-# or
+# o
 yarn install
-# or (recomendado)
+# o (recomendado)
 pnpm install
 ```
 
@@ -83,10 +83,10 @@ pnpm dev
 ```bash
 npm run preview
 npm run build
-# or
+# o
 yarn preview
 yarn build
-# or (recommended)
+# o (recomendado)
 pnpm preview
 pnpm build
 ```
