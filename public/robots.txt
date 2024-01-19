@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://astroship.web3templates.com/sitemap-index.xml
+Sitemap: httThis project does not have any deploy hooks.p://astroship.web3templates.com/sitemap-index.xml
