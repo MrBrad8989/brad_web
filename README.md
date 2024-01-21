@@ -1,6 +1,6 @@
 # BradWeb - Plantilla web inicial de Astro SAAS
 
-BradWeb es un sitio web de astro gratuito destinado para nuevas empresas, sitios web de marketing, páginas de destino y blogs. Construido con Astro y TailwindCSS.
+BradWeb es un **sitio web de astro gratuito destinado para nuevas empresas, sitios web de marketing, páginas de destino y blogs**. Construido con Astro y TailwindCSS.
 
 ## Implementar esta plantilla
 
