@@ -2,10 +2,6 @@
 
 BradWeb es un sitio web de astro gratuito destinado para nuevas empresas, sitios web de marketing, páginas de destino y blogs. Construido con Astro y TailwindCSS.
 
-<a href="https://web3templates.com/templates/astroship-pro-astro-saas-website-template">
-<img width="160" alt="Mejorar a Pro" src="https://user-images.githubusercontent.com/1884712/199181300-37c2128e-d033-4145-a906-16fa5263a53b.png">
-</a>
-
 ## Implementar esta plantilla
 
 ¡Puedes clonar esto instantáneamente en tu GitHub e implementar el sitio haciendo clic en los botones a continuación para implementarlo en los proveedores elegidos!
