@@ -6,15 +6,21 @@ import { Icon } from "astro-icon";
 <main
   class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
   <div class="py-6 md:order-1 hidden md:block">
-    <img 
-    src="/mrbrad.gif"
-    alt="An Dev-Blog Brad gif."
-    >
+    <div class="flex flex-col">
+      <img
+        class="aspect-square w-64 m-auto animate-spin animate-duration-5000"
+        src="/logoM.svg"
+        alt="An Dev-Blog Brad gif."
+        >
+        <h1 class="text-7xl leading-normal font-extrabold text-center">Brad-Web</h1>
+        <p class="text-5xl font-light text-center">Dev Web</p>
+    </div>
   </div>
+ 
   <div>
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Bienvenido a <p class="text-red-500">Brad-Web</p>
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-balance">
+      Bienvenido a <p class="bg-gradient-to-r from-blue-700 via-cyan-300 to-blue-500 inline-block text-transparent bg-clip-text">Brad-Web</p>
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
       Bienvenido a mi pagina personal que tiene funciones de Blog.<wbr /> Creado con Astro.build y Tailwind, 
@@ -25,7 +31,7 @@ import { Icon } from "astro-icon";
         href="#"
         href="https://github.com/MrBrad8989/brad_blog"
         target="_blank"
-        class="flex gap-1 items-center justify-center"
+        class="flex gap-1 items-center justify-center lg:w-auto md:w-1/2"
         rel="noopener">
         <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
          Descargar Template
@@ -35,7 +41,7 @@ import { Icon } from "astro-icon";
         style="outline"
         rel="noopener"
         href="https://github.com/MrBrad8989"
-        class="flex gap-1 items-center justify-center"
+        class="flex gap-1 items-center justify-center lg:w-auto md:w-1/2"
         target="_blank">
         <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
          GitHub Perfil
@@ -43,3 +49,9 @@ import { Icon } from "astro-icon";
     </div>
   </div>
 </main>
+
+<style>
+  .animate-duration-5000 {
+    animation-duration: 15000ms;
+  }
+</style>
