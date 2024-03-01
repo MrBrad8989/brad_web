@@ -37,11 +37,7 @@ const menuitems = [
   {
     title: "Contacto",
     path: "/contact",
-  },
-  {
-    title: "Example",
-    path: "/example",
-  },
+  }
 ];
 ---
 
@@ -50,7 +46,7 @@ const menuitems = [
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Brad</span><span class="text-blue-200">-</span><span
+          ><span class="font-bold text-slate-600">Brad</span><span class="text-blue-200">-</span><span
             class="text-blue-400">Web</span>
         </a>
         <div class="block lg:hidden">
@@ -74,7 +70,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
-                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
+                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-slate-300">
                       <span> {item.title}</span>
                       {item.badge && (
                         <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
@@ -101,19 +97,20 @@ const menuitems = [
       </div>
     </div>
     <style>
-      /* Estilos para el modo claro (sol) */
+      
       body.light-mode {
         background-color: #fff;
         color: #000;
+        
       }
   
-      /* Estilos para el modo oscuro (luna) */
+      
       body.dark-mode {
         background-color: #121212;
         color: #fff;
       }
   
-      /* Agrega una transición para el cambio de estilos */
+      
       body {
         transition: background-color 0.5s ease, color 0.5s ease;
       }
@@ -128,46 +125,47 @@ const menuitems = [
     </style>
     <div>
         <button id="toggleModeButton">
-          <svg class="moon-svg" id="dark_mode" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
+          <svg
+          class="moon-svg" id="dark_mode" viewBox="0 0 55 55" xmlns="http://www.w3.org/2000/svg">
             <path class="moon" d="M 27.5 0 C 34.791 0 41.79 2.899 46.945 8.055 C 52.101 13.21 55 20.209 55 27.5 C 55 34.791 52.101 41.79 46.945 46.945 C 41.79 52.101 34.791 55 27.5 55 C 20.209 55 13.21 52.101 8.055 46.945 C 2.899 41.79 0 34.791 0 27.5 C 0 20.209 2.899 13.21 8.055 8.055 C 13.21 2.899 20.209 0 27.5 0 Z" />
           </svg>
         </button>
 
         <script setup>
-          // Obtén referencias a los elementos relevantes
+          
           const body = document.body;
           const toggleButton = document.getElementById('toggleModeButton');
           const moonSvg = document.querySelector('.moon-svg');
       
-          // Función para obtener el modo inicial del almacenamiento
+          
           function getInitialMode() {
             const storedMode = localStorage.getItem('darkMode');
             return storedMode ? JSON.parse(storedMode) : false;
           }
       
-          // Función para guardar el modo en el almacenamiento
+          
           function saveModeToStorage(mode) {
             localStorage.setItem('darkMode', JSON.stringify(mode));
           }
       
-          // Agrega un evento de clic al botón
+         
           toggleButton.addEventListener('click', function () {
-            // Alternar entre clases de modo claro y oscuro
+            
             body.classList.toggle('light-mode');
             body.classList.toggle('dark-mode');
       
-            // Cambiar el color del SVG de la luna
+            
             moonSvg.classList.toggle('moon-light');
       
-            // Guardar el modo en el almacenamiento
+            
             saveModeToStorage(body.classList.contains('dark-mode'));
           });
       
-          // Limpiar al salir de la página
+          
           onCleanup(() => {
             toggleButton.removeEventListener('click');
           });
-        </script>   
+        </script>
     </div>
   </header>
 </Container>
