@@ -13,7 +13,7 @@ Haga clic aquí para implementar en Vercel:
 
 ## Vista Previa
 
-![image](https://i.imgur.com/AogE83w.png)
+![image](https://i.imgur.com/FCbkSe8.png)
 
 
 ## Instalación
